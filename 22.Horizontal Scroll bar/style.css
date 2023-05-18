@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li:hover{
+    background-color: #9a9898;
+
+}
+
+
+.nav-bar-list{
+    display: flex;
+    background-color: #777;
+    width: 100%;
+    overflow: scroll;  
+}
