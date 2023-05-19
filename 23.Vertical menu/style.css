@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+    padding: 20px 50px;
+   
+}
+
+li:hover{
+    background-color: rgb(190, 190, 190);
+}
+
+
+
+.navbar-list{
+    background-color: #eee;
+}
+
+
+.active{
+    background-color: #04AA6D !important;
+   
+}
+
+.active a{
+    color: white;
+}
