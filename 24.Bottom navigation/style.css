@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+    padding: 20px 20px;
+}
+
+p {
+    padding: 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+}
+
+.navbar a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    background-color: #333;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.active {
+    background-color: #04AA6D !important;
+    color: white !important;
+}
