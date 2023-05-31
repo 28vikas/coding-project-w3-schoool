@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pill-nav{
+    padding: 0px 10px;
+
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px;
+    
+    color: black
+}
+
+a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.active{
+    background-color: dodgerblue !important;
+    color: white !important;
+}
+
+h2{
+    padding: 20px 10px;
+}
+
+
+@media screen and (max-width: 420px) {
+    h2{
+        font-size: 17px;
+    }
+
+    a{
+    padding: 12px;
+
+    }
+    
+}
