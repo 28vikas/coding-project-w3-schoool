@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+    display: flex;
+    gap: 20px;
+    height: 2000px;
+}
+
+.content{
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.icon-bar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+}
+
+.icon-bar a{
+    padding: 20px;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+
+
+  p{
+    padding-top: 25px;
+  }
+
+  h3{
+    font-size: 30px;
+    margin-top: 20px;
+  }
