@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+
+    padding: 10px;
+}
+
+.btn-group button {
+    background-color: #04AA6D; 
+    border: 1px solid green; 
+    color: white; 
+    padding: 10px 24px;
+    cursor: pointer; 
+    width: 50%; 
+    display: block; 
+  }
+
+  h1{
+     padding: 10px;
+  }
+
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
