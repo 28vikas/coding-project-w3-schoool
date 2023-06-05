@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+a:hover{
+    background-color: rgb(220, 215, 215);
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.main{
+    padding: 10px 10px;
+}
+
+.pagination{
+     display: flex;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
