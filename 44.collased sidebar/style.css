@@ -1,0 +1,67 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.main{
+    margin: 10px;
+    padding: 16px;
+    transition: all .5s;
+
+}
+
+h2{
+margin: 10px 0;
+}
+
+#sidebar{
+ 
+    display: flex;
+    flex-direction: column;
+    width: 0;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    background-color: #111;
+    z-index: 1;
+    overflow-x: hidden;
+    text-align: center;
+    transition: all .5s;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 10px 0px;
+    color: #818181;
+    font-size: 25px;
+
+}
+a:hover{
+    color: white;
+}
+
+#btn{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    
+}
+
+.fa-bars{
+    margin-right: 10px;
+}
+
+
