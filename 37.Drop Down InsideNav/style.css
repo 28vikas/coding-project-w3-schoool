@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    display: block;
+}
+
+h2{
+    margin: 10px  0;
+
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+
+.main{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    height: 100vh;
+}
+
+
+.left-section{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    text-align: center;
+}
+
+#dropdown{
+    display: none;
+}
+
+.fa-caret-down{
+    margin-left: 15px;
+}
