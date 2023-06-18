@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 25px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    padding: 15px 8px 8px 32px;
+    
+}
+h2, p{
+    margin: 10px;
+}
+
+.sidenav{
+    background-color: black;
+    height: 100vh;
+    width: 200px;
+    transform: translateX(-200px);
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    transition: .4s ease-in-out;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+.fa-bars {
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.fa-xmark{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 30px;
+
+}
