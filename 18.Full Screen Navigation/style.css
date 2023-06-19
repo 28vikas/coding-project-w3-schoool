@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 25px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    padding: 15px 8px 8px 32px;
+    
+}
+h2, p{
+    margin: 10px;
+}
+
+.sidenav{
+    background-color: rgb(0,0,0);
+
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    width: 100vw;
+    transform: translateX(-100vw);
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    transition: .4s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+.fa-bars {
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.fa-xmark{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 30px;
+
+}
+
+
+.homeNabBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.homeNabBar a{
+    font-size: 35px;
+}
+
+
+
