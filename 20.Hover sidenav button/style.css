@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px 40px 10px 10px;
+    font-size: 25px;
+    color: white;
+}
+
+h2{
+    margin: 20px 0;
+}
+
+.main {
+    display: flex;
+}
+
+.para {
+    margin-left: 25px;
+}
+
+.sideNav {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#about {
+    background-color: #04AA6D;
+   border-radius: 0 5px 5px 0;
+    margin-top: 25px;
+    position: relative;
+    left: -90px;
+}
+
+#blog {
+    background-color: #2196F3;
+    border-radius: 0 5px 5px 0;
+    margin-top: 20px;
+    position: relative;
+    left: -90px;
+}
+
+#projects {
+    background-color: #f44336;
+    border-radius: 0 5px 5px 0;
+    margin-top: 20px;
+    position: relative;
+    left: -90px;
+}
+
+#contact{
+    background-color: #555;
+    border-radius: 0 5px 5px 0;
+    margin-top: 20px;
+    position: relative;
+    left: -90px;
+}
+
+#about:hover{
+    left: 0px;
+    transition: .4s;
+}
+
+#blog:hover{
+    left: 0px;
+    transition: .4s;
+}
+
+#projects:hover{
+    left: 0px;
+    transition: .4s;
+}
+
+#contact:hover{
+    left: 0px;
+    transition: .4s;
+}
