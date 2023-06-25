@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+}
+
+h2{
+    margin: 10px 0;
+}
+
+table, tr, td, th{
+    border-top: 1px solid rgb(17, 16, 17);
+    border-collapse: collapse;
+}
+
+ th{
+    background-color: rgb(28, 27, 27);
+    color: white;
+ }
+
+.main{
+    width: 100%;
+}
+
+input{
+    width: 90%;
+    margin: auto;
+    padding: 10PX;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+    border: 2px solid red;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#myTable{
+    /* height: 100%; */
+    margin-top: 10px
+}
