@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 10px 20px;
+    /* border: 2px solid red; */
+  
+    
+}
+li:hover{
+    background-color: #e9e8e8;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.main-section{
+    width: 100%;
+    display: flex;
+
+}
+
+.menu{
+    padding: 10px 20px
+}
+
+.search-box{
+    padding: 5px 10px
+}
+
+.left-section{
+ width: 30%
+
+ 
+}
+
+.right-section{
+    width: 70%;
+    background-color: #ddd;
+    padding: 20px 20px;
+}
+
+p{
+    line-height: 40px;
+    font-size: 20px;
+}
+
